@@ -44,7 +44,7 @@ extension Coverable where Self: UIView {
     
     public var defaultCoverablePath: UIBezierPath? {
         return UIBezierPath(roundedRect: bounds,
-                            cornerRadius: layer.cornerRadius)
+                            cornerRadius: 0)
     }
     
 }

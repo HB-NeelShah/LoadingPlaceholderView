@@ -23,7 +23,7 @@ extension UIBezierPath {
                                    width: bounds.width,
                                    height: lineHeight)
             let linePath = UIBezierPath(roundedRect: lineFrame,
-                                        cornerRadius: lineFrame.height/2)
+                                        cornerRadius: 0)
             totalPath.append(linePath)
         }
         return totalPath
